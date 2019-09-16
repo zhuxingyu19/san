@@ -201,6 +201,11 @@ function analyseExprDataHotspot(expr) {
 
             break;
 
+        case ExprType.CALL:
+            analyseExprs(expr.name.paths);
+            analyseExprs(expr.args);
+            break;
+
     }
 
     return refs;
