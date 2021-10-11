@@ -6,8 +6,8 @@
   <meta name="description" content="San - A Flexible JavaScript Component Framework">
   <meta name="keywords" content="San,JavaScript,Framework,MVVM,Component,Web">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="shortcut icon" href="/san/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="/san/img/icons/icon-144x144.png">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="../img/icons/icon-144x144.png">
   
   <title>San</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -28,14 +28,14 @@
   
     <link rel="icon" href="/favicon.png">
   
-  <link rel="manifest" href="/san/manifest.json">
+  <link rel="manifest" href="../manifest.json">
 
-  <link rel="stylesheet" href="/san/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/san/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/san/css/style.css">
-  <link rel="stylesheet" href="/san/css/site.css">
-  <link rel="stylesheet" href="/san/css/article.css">
-  <link rel="stylesheet" href="/san/css/code.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/site.css">
+  <link rel="stylesheet" href="../css/article.css">
+  <link rel="stylesheet" href="../css/code.css">
   
   <script>
 var _hmt = _hmt || [];
@@ -57,48 +57,49 @@ var _hmt = _hmt || [];
 
 <body id="home">
     <div class="overlay">
-        <img height="220" src="/san/img/logo-colorful.svg" class="logo" alt="LOGO" title="San">
+        <img height="220" src="../img/logo-colorful.svg" class="logo" alt="LOGO" title="San">
         <h1>San</h1>
         <iframe src="https://ghbtns.com/github-btn.html?user=baidu&repo=san&type=star&count=true&size=large" class="home-iframe"></iframe>
         <p class="overlay-p">A fast, portable, flexible JavaScript component framework</p>
-        <a href="/san/en/tutorial/start/" class="get-start">Get Started</a>
+        <a href="tutorial/start/" class="get-start">Get Started</a>
+        <a class="discussion" style="background:url(../img/discussion.svg) no-repeat 50% 50% / contain" href="https://github.com/baidu/san/discussions" target="_blank" title="Discussions"></a>
     </div>
 
     <!-- NavBar-->
     <nav class="navbar-default" role="navigation">
         <div class="navbar-container">
-
-            <a href="#home" class="nav-logo"><img src="/san/img/logo2.png"></a>
-
-
+            <a href="#home" class="nav-logo"><img src="../img/logo2.png"></a>
             <a class="nav-a1" href="#Features">Features</a>
             <a class="nav-a2" href="#Resources">Resources</a>
             <a class="nav-a3" href="#Facilities">Facilities</a>
-
-            <a class="nav-lang" href="/san/index.html">中文</a>
-
+            <a class="nav-lang" href="../index.html">中文</a>
         </div>
     </nav>
 
+    <!-- 公众号文章 -->
+    <div class="article-container" data-src="../data/article.json">
+        <a class="article-text-wrapper">
+            <span class="article-text"></span>
+        </a>
+    </div>
+
     <!-- feature-->
-
     <div class="feature-container" id="Features">
-
         <section class="feature feature-en">
 
         <div class="feature-row">
             <div class="feature-item">
-                <img src="/san/img/8.svg" width="44" height="44">
+                <img src="../img/8.svg" width="44" height="44">
                 <h5>HTML Template</h5>
                 <p>Declarative template. HTML conformant template makes it easier for HTML developers.</p>
             </div>
             <div class="feature-item">
-               <img src="/san/img/1.svg" width="44" height="44">
+               <img src="../img/1.svg" width="44" height="44">
                 <h5>Data Driven</h5>
                 <p>The DOM will be updated accordingly by the view engine upon any data modification. Free yourself from trivial and error-prone DOM APIs.</p>
             </div>
             <div class="feature-item">
-                <img src="/san/img/2.svg" width="44" height="44">
+                <img src="../img/2.svg" width="44" height="44">
                 <h5>Component</h5>
                 <p>A component is a combination of data, logic and view. Feature blocks, from a single input combination to a whole page, can be built via San components.</p>
             </div>
@@ -106,41 +107,40 @@ var _hmt = _hmt || [];
 
         <div class="feature-row">
             <div class="feature-item">
-                <img src="/san/img/3.svg" width="44" height="44">
+                <img src="../img/3.svg" width="44" height="44">
                 <h5>High Performance View</h5>
                 <p>By modifying the data, the view engine can directly refresh the view area that needs to be changed without any detection and better performance.</p>
             </div>
             <div class="feature-item">
-                <img src="/san/img/5.svg" width="44" height="44">
+                <img src="../img/5.svg" width="44" height="44">
                 <h5>Component Reversion</h5>
                 <p>Optimized for the first screen and output HTML from the server side. Reverse parse components from existing elements and build bindings.</p>
             </div>
             <div class="feature-item">
-                <img src="/san/img/4.svg" width="44" height="44">
+                <img src="../img/4.svg" width="44" height="44">
                 <h5>Small Size</h5>
-                <p>Volume less that 15kb (gzipped), no need to worry about the burden of page downloads. The gospel of patients with volume obsessive.</p>
+                <p>Volume less that 17kb (gzipped), no need to worry about the burden of page downloads. The gospel of patients with volume obsessive.</p>
             </div>
         </div>
 
         <div class="feature-row">
             <div class="feature-item">
-                <img src="/san/img/9.svg" width="44" height="44">
+                <img src="../img/9.svg" width="44" height="44">
                 <h5>Good Compatibility</h5>
                 <p>Another benefit of modifying data by method is that you can get better browser compatibility. After all, some users of our products are a bit rigid.</p>
             </div>
             <div class="feature-item">
-                <img src="/san/img/6.svg" width="44" height="44">
+                <img src="../img/6.svg" width="44" height="44">
                 <h5>Flexible Module Management</h5>
                 <p>The ESNext Module or AMD can be selected in the project. Of course, if you want to use global variables it is also supported.</p>
             </div>
             <div class="feature-item">
-                <img src="/san/img/7.svg" width="44" height="44">
+                <img src="../img/7.svg" width="44" height="44">
                 <h5>Convenient Reference</h5>
                 <p>Support for multiple methods such as NPM, GitHub, download, HTTP and HTTPS CDN, making development and online reference more convenient.</p>
             </div>
         </div>
     </section>
-    <img src="/san/img/san-perf.png" class="san-perf">
     </div>
 
     <!--Resources -->
@@ -153,9 +153,9 @@ var _hmt = _hmt || [];
 
     <div class="resource-row">
         <div class="resource-block">
-            <a class="resource-item" href="/san/en/tutorial/start/">
+            <a class="resource-item" href="tutorial/start/">
                 <div class="resource-item-top resource-item-top-one">
-                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="/san/js/tutor.json"></div>
+                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="../js/tutor.json"></div>
                 </div>
                 <div class="resource-item-bottom">
                     <h5>Tutorial</h5>
@@ -165,9 +165,9 @@ var _hmt = _hmt || [];
         </div>
 
         <div class="resource-block" href="/san/layout/">
-            <a class="resource-item" href="/san/en/practice/">
+            <a class="resource-item" href="practice/">
                 <div class="resource-item-top resource-item-top-two">
-                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="/san/js/compass.json"></div>
+                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="../js/compass.json"></div>
                 </div>
                 <div class="resource-item-bottom">
                     <h5>Practice</h5>
@@ -177,9 +177,9 @@ var _hmt = _hmt || [];
         </div>
 
        <div class="resource-block">
-            <a class="resource-item" href="/san/en/example/">
+            <a class="resource-item" href="example/">
                 <div class="resource-item-top resource-item-top-three">
-                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="/san/js/example.json"></div>
+                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="../js/example.json"></div>
                 </div>
                 <div class="resource-item-bottom">
                     <h5>Example</h5>
@@ -189,9 +189,9 @@ var _hmt = _hmt || [];
         </div>
 
         <div class="resource-block">
-            <a class="resource-item" href="/san/en/doc/api/">
+            <a class="resource-item" href="doc/api/">
                 <div class="resource-item-top resource-item-top-four">
-                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="/san/js/api.json"></div>
+                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="../js/api.json"></div>
                 </div>
                 <div class="resource-item-bottom">
                     <h5>Component API</h5>
@@ -212,12 +212,15 @@ var _hmt = _hmt || [];
     <p>Some tools and libraries can help you build your app faster and easier.</p>
     </div>
 
+
+    <div class="banner-md"><a href="https://ecomfe.github.io/santd/" target="_blank"><img
+                src="../img/banner-santd.png" alt="santd" style="width: 100%; max-width: 1160px"></a></div>
     <div class="facility-row">
 
         <div class="facility-block">
             <div class="facility-item">
                 <div class="facility-item-top facility-item-top-one">
-                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="/san/js/test.json"></div>
+                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="../js/test.json"></div>
                 </div>
                 <a class="facility-item-bottom" href="https://github.com/baidu/san-router" target="_blank">
                     <h5>Router</h5>
@@ -237,7 +240,7 @@ var _hmt = _hmt || [];
         <div class="facility-block">
             <div class="facility-item facility-item-unready">
                 <div class="facility-item-top facility-item-top-two">
-                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="/san/js/store.json"></div>
+                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="../js/store.json"></div>
                 </div>
                 <a class="facility-item-bottom" href="https://github.com/baidu/san-store" target="_blank">
                     <h5>Store</h5>
@@ -247,24 +250,28 @@ var _hmt = _hmt || [];
                     <h5>Update</h5>
                     <p>Immutable&#39;s object update library, with san-store for application state data updates.</p>
                 </a>
+                <a class="facility-item-bottom" href="https://github.com/baidu/san-composition" target="_blank">
+                    <h5>Composition</h5>
+                    <p>The composition API helps us collocate code related to the same logical concern.</p>
+                </a>
             </div>
         </div>
 
         <div class="facility-block">
             <div class="facility-item">
                 <div class="facility-item-top facility-item-top-three">
-                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="/san/js/dev.json"></div>
+                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="../js/dev.json"></div>
                 </div>
                 <a class="facility-item-bottom" href="https://github.com/ecomfe/san-cli" target="_blank">
                     <h5>CLI</h5>
                     <p>A CommandLine tooling for rapid development.</p>
                 </a>
-                <a class="facility-item-bottom" href="https://github.com/ecomfe/san-cli/tree/master/packages/san-loader" target="_blank">
+                <a class="facility-item-bottom" href="https://github.com/ecomfe/san-loader" target="_blank">
                     <h5>Loader</h5>
                     <p>Webpack loader for single-file San components.</p>
                 </a>
-                <a class="facility-item-bottom" href="https://github.com/baidu/san-devtool/blob/master/docs/user_guide.md" target="_blank">
-                    <h5>DevTool</h5>
+                <a class="facility-item-bottom" href="https://github.com/baidu/san-devtools" target="_blank">
+                    <h5>DevTools</h5>
                     <p>Developer tools based on Chrome extensions.</p>
                 </a>
             </div>
@@ -273,7 +280,7 @@ var _hmt = _hmt || [];
         <div class="facility-block">
             <div class="facility-item">
                 <div class="facility-item-top facility-item-top-four">
-                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="/san/js/update.json"></div>
+                    <div style="width:130px;height:130px;display:inline-block;" class="bodymovin" data-movpath="../js/update.json"></div>
                 </div>
                 <a class="facility-item-bottom" href="https://github.com/ecomfe/san-test-utils" target="_blank">
                     <h5>TestUtils</h5>
@@ -283,32 +290,33 @@ var _hmt = _hmt || [];
                     <h5>ANodeUtils</h5>
                     <p>Util Functions for ANode.</p>
                 </a>
-                <a class="facility-item-bottom" href="https://github.com/ssddi456/drei" target="_blank">
-                    <h5>Drei</h5>
+                <a class="facility-item-bottom" href="https://github.com/searchfe/sanny" target="_blank">
+                    <h5>Sanny</h5>
                     <p>VSCode extension.</p>
                 </a>
             </div>
         </div>
     </div>
-    <div class="banner-md"><a href="https://ecomfe.github.io/santd/" target="_blank"><img src="/san/img/banner-santd.png" alt="santd" style="width: 100%; max-width: 1160px"></a></div>
-    <div class="banner-md"><a href="https://ecomfe.github.io/san-mui/" target="_blank"><img src="/san/img/banner-md.png" alt="san-mui" style="width: 100%; max-width: 1160px"></a></div>
+    <div class="banner-md"><a href="https://ecomfe.github.io/san-mui/" target="_blank"><img
+                src="../img/banner-md.png" alt="san-mui" style="width: 100%; max-width: 1160px"></a></div>
 </section>
-
+<img src="../img/san-perf.png" class="san-perf">
     <footer id="More">
       
     <div class="copyright">
-        &copy; 2020 <a target="_blank" href="http://efe.baidu.com">Baidu EFE</a>
+        &copy; 2021 <a target="_blank" href="http://efe.baidu.com">Baidu EFE</a>
     </div>
     </footer>
 
 
 
     <!-- JavaScript -->
-    <script src="/san/js/jquery-1.10.2.js"></script>
-    <script src="/san/js/script.js"></script>
-    <script src="/san/js/bodymovin.min.js"></script>
+    <script src="../js/jquery-1.10.2.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/bodymovin.min.js"></script>
+    <script src="../js/anime.js"></script>
     <!-- StikyMenu -->
-    <script src="/san/js/stickUp.min.js"></script>
+    <script src="../js/stickUp.min.js"></script>
 
     <script type="text/javascript">
        jQuery(function($) {
@@ -316,7 +324,6 @@ var _hmt = _hmt || [];
                 $('.navbar-default').stickUp();
             });
         });
-
     </script>
 </body>
 </html>
